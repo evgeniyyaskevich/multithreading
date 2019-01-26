@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="ERROR">
+
+    <appenders>
+        <File name="ERRORFILE" fileName="logs/ErrorsInfo.log" >
+            <PatternLayout pattern="%d{ABSOLUTE} [%-5p] (%F:%M:%L) - %m%n"/>
+        </File>
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} - [%-5p] - %m%n"/>
+        </Console>
+
+        <File name="TRACEFILE" fileName="logs/TraceInfo.log">
+            <PatternLayout pattern="%d{HH:mm:ss} - [%-5p] - %m%n"/>
+        </File>
+
+        <File name="DEBUGFILE" fileName="logs/DebugInfo.log">
+            <PatternLayout pattern="%d{ABSOLUTE} [%-5p] (%F:%M:%L) - %m%n"/>
+        </File>
+    </appenders>
+
+    <loggers>
+
+        <root level="TRACE">
+            <appender-ref ref="STDOUT"/>
+            <appender-ref ref="TRACEFILE" level="TRACE"/>
+            <appender-ref ref="DEBUGFILE" level="DEBUG"/>
+            <appender-ref ref="ERRORFILE" level="ERROR"/>
+        </root>
+
+    </loggers>
+
+</configuration>

@@ -1,0 +1,32 @@
+21:15:10 - [TRACE] - Start working...
+21:15:10 - [TRACE] - END OF MAIN
+21:15:10 - [TRACE] - Train #2 in state: CREATED tunnel: English Channel
+21:15:10 - [TRACE] - Train #3 in state: CREATED tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #4 in state: CREATED tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #1 in state: CREATED tunnel: English Channel
+21:15:10 - [TRACE] - Train #0 in state: CREATED tunnel: English Channel
+21:15:10 - [TRACE] - Train #5 in state: CREATED tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #1 in state: WAITING IN THE QUEUE tunnel: English Channel
+21:15:10 - [TRACE] - Train #2 in state: WAITING IN THE QUEUE tunnel: English Channel
+21:15:10 - [TRACE] - Train #5 in state: WAITING IN THE QUEUE tunnel: Minsk Channel
+21:15:10 - [TRACE] - Giving permission for Train{id=1, direction=SOUTH, name='Train #1'} in English Channel
+21:15:10 - [TRACE] - Train #0 in state: WAITING IN THE QUEUE tunnel: English Channel
+21:15:10 - [TRACE] - Train #4 in state: WAITING IN THE QUEUE tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #3 in state: WAITING IN THE QUEUE tunnel: Minsk Channel
+21:15:10 - [TRACE] - Giving permission for Train{id=0, direction=SOUTH, name='Train #0'} in English Channel
+21:15:10 - [TRACE] - Giving permission for Train{id=4, direction=SOUTH, name='Train #4'} in Minsk Channel
+21:15:10 - [TRACE] - Giving permission for Train{id=5, direction=SOUTH, name='Train #5'} in Minsk Channel
+21:15:10 - [TRACE] - Giving permission for Train{id=3, direction=SOUTH, name='Train #3'} in Minsk Channel
+21:15:10 - [TRACE] - Train #0 in state: MOVING tunnel: English Channel
+21:15:10 - [TRACE] - Train #5 in state: MOVING tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #3 in state: MOVING tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #4 in state: MOVING tunnel: Minsk Channel
+21:15:10 - [TRACE] - Train #1 in state: MOVING tunnel: English Channel
+21:15:12 - [TRACE] - Train #4 in state: LEFT tunnel: Minsk Channel
+21:15:12 - [TRACE] - Train #0 in state: LEFT tunnel: English Channel
+21:15:12 - [TRACE] - Train #5 in state: LEFT tunnel: Minsk Channel
+21:15:12 - [TRACE] - Train #1 in state: LEFT tunnel: English Channel
+21:15:12 - [TRACE] - Train #3 in state: LEFT tunnel: Minsk Channel
+21:15:13 - [TRACE] - Giving permission for Train{id=2, direction=NORTH, name='Train #2'} in English Channel
+21:15:13 - [TRACE] - Train #2 in state: MOVING tunnel: English Channel
+21:15:15 - [TRACE] - Train #2 in state: LEFT tunnel: English Channel
